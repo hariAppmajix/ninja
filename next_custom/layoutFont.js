@@ -13,7 +13,7 @@ import { NextScript } from "next/document";
 const LayoutFont = ({ children }) => {
   return (
     <div>
-      <Head>
+      {/* <Head>
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link
           rel="preload"
@@ -22,7 +22,7 @@ const LayoutFont = ({ children }) => {
           as="style"
           onload="this.onload=null;this.rel='stylesheet'"
         />
-      </Head>
+      </Head> */}
       {children}
     </div>
   );
