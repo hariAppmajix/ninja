@@ -43,6 +43,11 @@ const LayoutFont = ({ children }) => {
           media="print"
           onload="this.media='all'"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+          media={!hydrated ? "print" : "all"}
+        />
         {/* <link
           rel="preconnect"
           href="https://fonts.gstatic.com"
