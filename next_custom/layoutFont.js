@@ -1,7 +1,7 @@
 import React from "react";
-import GoogleFonts from "next-google-fonts";
+
 import Head from "next/head";
-import { NextScript } from "next/document";
+
 // const LayoutFont = ({ children }) => {
 //   return (
 //     <div>
@@ -10,7 +10,20 @@ import { NextScript } from "next/document";
 //     </div>
 //   );
 // };
+
+let hydrated = false;
 const LayoutFont = ({ children }) => {
+  const hydratedRef = React.useRef(false);
+  const [, rerender] = React.useState(false);
+
+  React.useEffect(() => {
+    if (!hydratedRef.current) {
+      hydrated = true;
+      hydratedRef.current = true;
+      rerender(true);
+    }
+  }, []);
+
   return (
     <div>
       <Head>
@@ -18,8 +31,10 @@ const LayoutFont = ({ children }) => {
 
         <link
           rel="preload"
-          as="style"
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+          as="style"
+          onload="this.onload=null;this.rel='stylesheet'"
         />
 
         <link
@@ -28,7 +43,21 @@ const LayoutFont = ({ children }) => {
           media="print"
           onload="this.media='all'"
         />
-
+        {/* <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="anonymous"
+        />
+        <link
+          rel="preload"
+          as="style"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+          media={!hydrated ? "print" : "all"}
+        /> */}
         <noscript>
           <link
             rel="stylesheet"
