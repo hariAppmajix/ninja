@@ -27,7 +27,12 @@ const LayoutFont = ({ children }) => {
   return (
     <div>
       <Head>
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin
+          defer
+        />
 
         <link
           rel="preload"
@@ -35,6 +40,7 @@ const LayoutFont = ({ children }) => {
           rel="stylesheet"
           as="style"
           onload="this.onload=null;this.rel='stylesheet'"
+          defer
         />
 
         <link
@@ -42,11 +48,13 @@ const LayoutFont = ({ children }) => {
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           media="print"
           onload="this.media='all'"
+          defer
         />
         <link
           href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
           rel="stylesheet"
           media={!hydrated ? "print" : "all"}
+          defer
         />
         {/* <link
           rel="preconnect"
