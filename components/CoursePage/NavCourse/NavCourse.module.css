@@ -1,0 +1,42 @@
+.nav_center {
+  margin: auto;
+}
+
+.navbar_bg {
+  /* box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #ffffff !important ; */
+  box-shadow: 0px 3px 14px #00000038 !important;
+  background: white;
+}
+
+.link {
+  padding: 10px 15px !important;
+  margin: 0px 10px;
+  font-weight: 600;
+  background-image: linear-gradient(90deg, rgba(24, 24, 24, 0) 50%, #414141 0);
+  background-position: 1%;
+  background-size: 204%;
+}
+
+.nav_sticky {
+  position: fixed !important;
+  top: 60px;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  -webkit-transition: 0.3s all ease-out;
+  -o-transition: 0.3s all ease-out;
+  transition: 0.3s all ease-out;
+}
+
+.link:hover {
+  background-position: -97.5%;
+  transition: 0.5s;
+  color: white !important;
+}
+
+@media all and (max-width: 1280px) and (min-width: 768px) {
+  .link {
+    padding: 10px !important;
+    font-weight: 600;
+  }
+}

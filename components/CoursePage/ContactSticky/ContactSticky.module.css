@@ -1,0 +1,27 @@
+.sticky {
+  display: none;
+  position: sticky;
+  margin: 0;
+  bottom: 0;
+  z-index: 100000;
+}
+
+.call {
+  background-color: rgb(27, 27, 27);
+  text-align: center;
+  color: white;
+  padding: 12px;
+}
+
+.Chat {
+  background-color: rgb(17, 17, 17);
+  text-align: center;
+  color: white;
+  padding: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sticky {
+    display: flex;
+  }
+}

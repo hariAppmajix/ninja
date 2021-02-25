@@ -1,0 +1,122 @@
+.hero_wrap {
+  padding: 100px 0 0 0;
+  position: inherit;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background: linear-gradient(90deg, black, #1f1f1f);
+  /* background-image: url("https://cdn.mindmajixtechhub.com/mern/images/Radiant-Gradient-1.svg"); */
+}
+
+.course_typed {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.typed_bg {
+  background: #e21928;
+}
+
+.play_icon {
+  width: 75px;
+  margin: auto;
+  display: block;
+  border-radius: 50%;
+  box-shadow: 3px 3px 4px #b9b9b9;
+}
+.course_rating {
+  padding: 20px 0 10px 0 !important;
+  border-top: 2px solid #474747;
+}
+
+.resp_row {
+  padding: 40px 0;
+}
+
+.rating_col {
+  margin-top: auto;
+  margin-bottom: auto;
+  border-right: 1px solid grey;
+}
+
+.w_200 {
+  width: 200px !important;
+}
+
+.course_feature_text {
+  font-size: 12px;
+  font-weight: 500;
+  margin: 0;
+  color: white;
+}
+
+.course_feature_icon {
+  display: block;
+  margin: auto;
+}
+
+.social_banner_icon {
+  font-size: 28px;
+  color: white;
+}
+
+.social_banner_icon_2 {
+  font-size: 15px;
+  color: white;
+  margin: 2px;
+}
+
+.star_icon {
+  width: 20px;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+.feature_block {
+  padding: 20px 10px;
+}
+
+.description {
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+}
+
+.read_more {
+  font-weight: 600;
+  color: white !important;
+  cursor: pointer;
+}
+
+.c_btn {
+  color: white !important;
+  margin: 15px 0;
+  float: right;
+}
+
+@media only screen and (max-width: 768px) {
+  .c_btn {
+    color: white !important;
+    float: left;
+  }
+
+  .feature_block {
+    padding: 20px 0px;
+  }
+
+  .course_feature_text {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 0;
+    color: white;
+  }
+}
+
+/* .feature_block:hover {
+  box-shadow: 5px 5px 12px 5px #8080803b;
+  transition: 0.2s;
+} */

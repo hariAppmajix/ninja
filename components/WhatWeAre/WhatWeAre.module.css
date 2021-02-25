@@ -1,0 +1,22 @@
+.quote_line {
+  text-align: center;
+  line-height: 35px;
+}
+
+.quote_box {
+  padding: 20px 0;
+  /* box-shadow: 10px 10px 13px #e8e8e8, -10px -10px 13px #ffffff; */
+}
+
+.whatweare_banner {
+  background-image: linear-gradient(0deg, #ffffff 0%, #74747426 100%);
+}
+
+@media only screen and (max-width: 600px) {
+  .whatweare_icons {
+    width: 60px !important;
+    height: 60px !important;
+    margin: unset !important;
+    margin-left: auto !important;
+  }
+}

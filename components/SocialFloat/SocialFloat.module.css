@@ -1,0 +1,16 @@
+.right_flow {
+  position: fixed;
+  top: 20%;
+  right: 4.4vh;
+  transform-origin: right top;
+  bottom: 50%;
+  z-index: 100000000;
+  -webkit-transform: rotateZ(-90deg);
+  -moz-transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg);
+}
+
+.float_element {
+  padding: 0px 15px;
+  color: #686868 !important;
+}

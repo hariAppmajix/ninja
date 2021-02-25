@@ -1,0 +1,139 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap"); */
+
+.Corporate__Title {
+  /* font-family: "Big Shoulders Display", cursive; */
+  letter-spacing: 1px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.Corporate__main {
+  /* font-family: "Sriracha", cursive; */
+}
+.Corporate__features__main {
+  min-height: 60vh;
+}
+
+.Corporate__Span__Title {
+  color: #e21928;
+}
+.Corporate__Description {
+  margin: 20px 0px;
+}
+
+.Corporate__Description__span {
+  color: #e21928;
+}
+
+.Corporate__minDesc {
+  font-weight: 100;
+}
+
+.Feature__box {
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+}
+.Feature__box > p {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.Feature__Span__Box {
+  color: #e21928;
+}
+
+.Versatile__Box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 0px;
+  flex-direction: column;
+}
+.Versatile__Box > P {
+  /* font-family: sans-serif; */
+  margin-top: 10px;
+  color: rgb(77, 77, 77);
+  font-size: 1rem;
+  text-align: center;
+}
+.Versatile__Title {
+  /* font-family: sans-serif; */
+  font-size: 1.5rem;
+}
+
+.Client__Tiltle {
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: #e21928;
+}
+.Client__Subject {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.Client__Comment__Box {
+  margin: 40px 0px;
+}
+
+.Client__Comment__Box > p {
+  /* font-family: sans-serif; */
+  color: rgb(77, 77, 77);
+  font-size: 1rem;
+  /* text-align: center; */
+}
+
+.ReviewCardBox {
+  box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #ffffff;
+  background: linear-gradient(145deg, #fff5f5, #ffc2c2);
+  width: 300px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0px;
+  height: 160px;
+}
+
+.ReviewContentBox1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.ReviewContentBox1 > p {
+  margin: 0;
+}
+.Form__box__GetInTouch {
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.Form__box__GetInTouch > div > input {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 5px;
+  border: none;
+  background: #e2192621;
+}
+.Form__box__GetInTouch > div > textarea {
+  width: 100%;
+  margin: 10px 0px;
+  padding: 10px 5px;
+  border: none;
+  background: #e2192621;
+}
+
+.Forms_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.Forms_button > button {
+  padding: 5px 50px;
+  border: none;
+  background: #e2192621;
+}

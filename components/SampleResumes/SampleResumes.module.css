@@ -1,0 +1,305 @@
+.resumes_page {
+    padding: 120px 0 120px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: 400 !important;
+    text-align: center;
+    font-size: 3rem !important;
+}
+
+.title span {
+    color: #ff1616;
+}
+
+.post_details {
+    margin: 50px 0 40px;
+}
+
+.sidebar {
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    border: 1px solid #eee;
+    background: #fff4f4;
+}
+
+.resumes_page ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar ul li,
+.resumes_page ul li {
+    position: relative;
+    padding-left: 20px;
+    line-height: 26px;
+}
+
+
+.sidebar ul li+li {
+    margin-top: 5px;
+}
+
+.resumes_page ul li+li {
+    margin-top: 8px;
+}
+
+.sidebar ul li::before,
+.resumes_page ul li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background: #000000;
+    border-radius: 50%;
+    left: 0;
+    top: 8px;
+}
+
+.sidebar+.sidebar {
+    margin-top: 30px;
+}
+
+.sidebar h5 {
+    color: #ff1616;
+    font-weight: 400 !important;
+    margin-bottom: 20px;
+}
+
+.sidebar h5 a {
+    color: #ff1616 !important;
+}
+
+.resumes_page p {
+    margin: 0 0 30px;
+    line-height: 26px;
+}
+
+.ladder {
+    background: url('../../public/images/ladder-shape.jpg') no-repeat;
+    background-size: 200px;
+    padding: 40px 0 50px;
+    background-position: -20px 5px;
+}
+
+.ladder>div {
+    margin-top: 5px;
+    align-items: center;
+}
+
+.ladder>div+div {
+    margin-top: 28px;
+}
+
+.ladder b {
+    font-size: 14px;
+}
+
+.ladder .download_btn {
+    display: block;
+    background: #fac3c7;
+    height: 56px;
+    white-space: nowrap;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.ladder .download_btn:hover {
+    background: rgb(250 195 199 / 80%);
+}
+
+.sidebar_background {
+    background: url("/images/resumes-bg.png") no-repeat;
+    background-size: 40px;
+    background-position: 16% 0;
+    position: relative;
+    margin-bottom: 40px;
+    padding-left: 95px;
+    padding-bottom: 20px;
+}
+
+.sidebar_background span{
+    display: block;
+    line-height: 1;
+}
+
+.sidebar_background span.active{
+    font-weight: 600;
+    position: relative;
+}
+
+.sidebar_background span.active::before{
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #ff1616;
+    border-radius: 50%;
+    position: absolute;
+    top: 102px;
+    left: -30px;
+}
+
+.sidebar_background span:first-child{
+    padding-top: 8px;
+}
+
+.sidebar_background span+span{
+    padding-top: 105px;
+}
+
+.content_wrapper h4 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.content_wrapper h4 span {
+    color: #ff1616;
+}
+
+.content_wrapper .content p {
+    margin: 0;
+}
+
+.content_wrapper .content+.content {
+    margin-top: 30px;
+}
+
+.questionmark,
+.interview,
+.book {
+    position: relative;
+    text-align: center;
+}
+
+.questionmark::before, .book::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: -10px;
+    background: url('../../public/images/question-mark.jpg') no-repeat;
+    background-position: center;
+    width: 94px;
+    height: 125px;
+    pointer-events: none;
+    background-size: 100px;
+}
+
+.book::before{
+    background: url('/images/book.jpg') no-repeat;
+    background-position: center;
+    background-size: 100px;
+    top: -25px;
+}
+
+.questionmark,
+.interview {
+    padding: 20px 0;
+    margin: 30px 0;
+    border-bottom: 2px solid #fac3c7;
+}
+
+.questionmark_text, .book {
+    padding-left: 70px;
+}
+
+.interview {
+    padding-right: 154px;
+    padding-bottom: 30px;
+}
+
+.interview::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: -22px;
+    background: url('../../public/images/mock-interview.jpg') no-repeat;
+    background-position: center;
+    width: 160px;
+    height: 120px;
+    pointer-events: none;
+    background-size: 160px;
+}
+
+.questionmark_text h4,
+.interview h4 {
+    margin: 0 0 8px;
+}
+
+@media only screen and (max-width:1199px) {
+    .ladder {
+        background-position: 0 5px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .resumes_page .title {
+        font-size: 44px !important;
+    }
+
+    .ladder {
+        background: none;
+    }
+
+    .questionmark::before, .book::before {
+        height: 94px;
+        background-size: 70px;
+    }
+
+    .ladder {
+        padding: 20px 0;
+    }
+
+    .interview::after {
+        background-size: 120px;
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .resumes_page {
+        padding: 60px 0;
+    }
+
+    .post_details {
+        margin: 25px 0 30px;
+    }
+
+    .resumes_page .title {
+        font-size: 32px !important;
+    }
+
+    .ladder {
+        padding: 0;
+    }
+
+    .ladder>div>div {
+        margin-top: 15px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .questionmark::before, .book::before {
+        left: -10px;
+        top: 25px;
+    }
+
+    .interview {
+        padding-right: 80px;
+    }
+
+    .interview::after {
+        background-size: 100px;
+        width: 90px;
+        height: 100px;
+        top: 5px;
+        right: -5px;
+    }
+}

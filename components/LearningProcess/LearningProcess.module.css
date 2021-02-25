@@ -1,0 +1,109 @@
+.p_text {
+  color: #5a5a5a;
+  line-height: 34px;
+}
+
+.online_training_img {
+  display: block;
+  margin: auto;
+}
+
+.p_icon {
+  font-size: 30px;
+  color: #5a5a5a;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.card_header {
+  background: none;
+  border: none;
+  border-radius: 0 !important;
+  border-bottom: 3px solid #e61b2a;
+}
+
+.acord_icon_plus {
+  float: right;
+  display: block;
+}
+
+.acord_icon_minus {
+  float: right;
+  display: none;
+}
+
+.card {
+  box-shadow: none !important;
+}
+.number {
+  font-size: 42px;
+  font-weight: 700;
+}
+
+.animated_bg {
+  margin: auto;
+  background-image: url("https://cdn.mindmajixtechhub.com/mern/images/achievement-2.svg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.animated_card_1 {
+  text-align: center;
+  padding: 50px;
+  margin-left: 60px;
+  background-color: #ff7878c7;
+}
+
+.animated_card_2 {
+  text-align: center;
+  padding: 20px;
+  margin-top: 60px;
+  background-color: #5991fecc;
+}
+
+.animated_card_3 {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 0;
+  background-color: #f2c9017a;
+}
+
+.animated_card_4 {
+  text-align: center;
+  padding: 50px;
+  margin-right: 60px;
+  background-color: #8b33ff6b;
+}
+
+@media only screen and (max-width: 1024px) {
+  .animated_card_1 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .animated_card_2 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .animated_card_3 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .animated_card_4 {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .number {
+    font-size: 32px;
+    font-weight: 700;
+  }
+}

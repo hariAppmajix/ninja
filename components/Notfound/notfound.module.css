@@ -1,0 +1,148 @@
+.oops__container {
+  width: 80%;
+  margin: auto;
+}
+
+.NotFound__Container {
+  padding-top: 10vh;
+  padding-bottom: 3vh;
+  height: auto;
+}
+
+.oops__main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 800px) {
+  .oops__main {
+    flex-direction: column;
+  }
+}
+.oops__main > img {
+  margin-left: 20px;
+}
+
+.oops__main > h4 {
+  color: #7a7a7a;
+  font-size: 16px;
+}
+
+.desc {
+  color: #7a7a7a;
+  padding: 20px 0px;
+  display: grid;
+  place-items: center;
+}
+.desc > h4 {
+  font-size: 16px !important;
+}
+@media (max-width: 800px) {
+  .desc > h4 {
+    font-size: 12px !important;
+  }
+  .desc > h4:first-child {
+    margin-left: 20px !important;
+  }
+  .desc > h4:last-child {
+    margin-left: 80px !important;
+  }
+}
+.desc > h4:first-child {
+  margin-left: 0px;
+}
+.desc > h4:last-child {
+  margin-left: 210px;
+}
+
+.span_desc {
+  color: #ff0000;
+}
+
+.Content_Box {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 800px) {
+  .Content_Box > div > img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .Content__main___box {
+    min-height: 58vh;
+    align-items: center;
+  }
+}
+.Content_links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.input__box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.input__box > input {
+  padding: 8px 5px;
+  border-radius: 50px;
+  border: 2px solid #ffc2c2;
+  text-align: center;
+  width: 100%;
+  margin: 0px 0px;
+  color: #7a7a7a !important;
+}
+.input__box > input:focus {
+  outline: none;
+}
+
+.Content_links {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Content_links > a {
+  padding: 8px 15px;
+  border-radius: 50px;
+  background: #ffc2c2;
+  text-align: center;
+  color: #7a7a7a !important;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px !important;
+  margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+  .Content_links {
+    flex-direction: column;
+  }
+  .Content_links > a {
+    margin-bottom: 10px;
+    font-size: 10px !important;
+  }
+
+  .imagePage {
+    display: none;
+  }
+}
+
+.Content__main___box {
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.Content__main___box > div:last-child {
+  flex: 1;
+}

@@ -1,0 +1,74 @@
+.card {
+  max-width: 90% !important;
+  box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #ffffff !important;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 12px 12px 24px #d1d1d1, -12px -12px 24px #ffffff;
+}
+
+.card_icon {
+  width: 25px;
+}
+
+.star_icon {
+  float: right;
+}
+
+.learners_text {
+  font-size: 14px;
+  color: #6d6d6d;
+  font-weight: 400;
+}
+
+.learners_icon {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.card_body {
+  -webkit-flex: 1 1 auto;
+  -moz-box-flex: 1;
+  flex: 1 1 auto;
+  min-height: 1px;
+  padding: 1.25rem;
+}
+
+.card_img {
+  display: block;
+  margin: auto;
+  border-radius: 0;
+}
+
+.card_title {
+  font-size: 18px;
+  padding: 5px 0 10px 0;
+  height: 50px;
+}
+
+.card_title:hover {
+  transition: 0.2s;
+  color: #e31a28;
+}
+
+.card_top {
+  background: none !important;
+  border: none !important;
+  height: 40px;
+}
+
+.card_text {
+  margin-bottom: 8px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .card {
+    max-width: 90% !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .card {
+    max-width: 90% !important;
+  }
+}

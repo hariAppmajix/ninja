@@ -1,0 +1,33 @@
+.client_img {
+  display: block;
+  text-align: center;
+}
+
+.client_bg {
+  padding: 20px 0px;
+  /* background: white; */
+  /* margin: 20px 0; */
+  /* border-radius: 5px; */
+  /* box-shadow: -2px 2px 6px 1px #80808091; */
+}
+
+.corporate_row {
+  background-color: #efefef59;
+  background-image: url(https://cdn.mindmajixtechhub.com/mern/images/corporate_banner.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  /* background-size: 900px; */
+}
+
+.p_text {
+  margin: 10px 0;
+  color: #5a5a5a;
+}
+
+.cp_text {
+  padding: 15px 0;
+}
+
+.client_row {
+  padding: 20px 0;
+}

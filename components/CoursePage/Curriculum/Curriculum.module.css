@@ -1,0 +1,126 @@
+.curriculum_banner {
+  background: #f8f9fa;
+  padding-top: 100px;
+}
+
+.p_text {
+  margin: 15px 0;
+  color: #5a5a5a;
+  font-size: 14px;
+}
+
+.online_training_img {
+  display: block;
+  margin: auto;
+}
+
+.p_icon {
+  font-size: 30px;
+  color: #5a5a5a;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.card_header {
+  background: none;
+  border: none;
+  border-radius: 0 !important;
+  border-bottom: 3px solid #e61b2a;
+}
+
+.acord_icon {
+  float: right;
+}
+.card {
+  box-shadow: none !important;
+}
+
+.contact_input {
+  border: none;
+  border-bottom: 2px solid #cacaca;
+  border-radius: 0;
+  background-color: #ffffff00 !important;
+}
+
+.contact_input:focus {
+  border-bottom: 2px solid #e21927;
+  box-shadow: none !important;
+}
+
+.contact_side {
+  /* background: white; */
+  padding: 30px;
+  border-top: 3px solid #e21928;
+  border-radius: 5px;
+  box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #ffffff !important;
+}
+
+.contact_sticky {
+  position: sticky !important;
+  margin-right: 6%;
+  top: 20%;
+  z-index: 90;
+}
+
+.dot {
+  position: absolute;
+  left: 5px;
+  font-size: 24px;
+  color: #e61b2a;
+}
+
+.li_head {
+  padding-top: 35px;
+}
+
+.li_content {
+  padding-top: 10px;
+  color: #5a5a5a;
+}
+
+.read_more {
+  border-bottom: 2px solid #e51b29 !important;
+  border-radius: 0 !important;
+}
+
+.read_more:focus {
+  border: none;
+  box-shadow: none;
+}
+
+/* Accordian */
+
+.card {
+  box-shadow: none !important;
+  background: none;
+  margin-bottom: 0 !important;
+}
+
+.card_header {
+  background: none;
+  border: none;
+  font-weight: 600;
+  font-size: 20px;
+  border-left: 2px solid #e7e7e7;
+  margin-left: 15px;
+  cursor: pointer;
+  padding: 20px;
+}
+
+.card_body {
+  background: none;
+  border: none;
+  font-size: 14px;
+  border-left: 2px solid #e7e7e7;
+  margin-left: 15px;
+}
+
+.headplus {
+  color: #e21927;
+  position: absolute;
+  font-size: 24px;
+  left: 5px;
+  margin-top: 4px;
+  background-color: white;
+  border-radius: 50%;
+}

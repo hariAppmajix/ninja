@@ -1,0 +1,63 @@
+.training_row {
+  padding: 30px 10px;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 30px 0;
+  /* box-shadow: 3px 2px 5px 0px #808080a6; */
+}
+
+.p_text {
+  margin: 10px 0;
+  color: #5a5a5a;
+}
+
+.cp_text {
+  padding: 15px 0;
+}
+
+.details {
+  /* background-image: url(/images/red-bg.svg);
+  background-position: top;
+  background-repeat: no-repeat;
+  margin-left: auto; */
+  background: linear-gradient(145deg, #f8f8f8, #ffffff);
+  text-align: center;
+  padding: 15px 30px 30px 30px;
+  box-shadow: 8px 8px 10px #d9d9d9, -8px -8px 10px #ffffff;
+  border-top: 3px solid #e21928;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+}
+
+.price {
+  font-weight: 600 !important;
+  font-size: 32px;
+  color: #e51b29;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.time {
+  font-weight: 600 !important;
+  color: #353535;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.price_strike {
+  text-decoration: line-through;
+  color: #7e7e7e;
+  font-size: 24px;
+  padding-top: 0px;
+  text-align: center;
+  font-weight: 600 !important;
+}
+
+/* .batches_row {
+  background-color: #f8f9fa;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  -moz-box-shadow: 8px 8px 10px #d9d9d9, -8px -8px 10px #ffffff;
+  box-shadow: 8px 8px 10px #d9d9d9, -8px -8px 10px #ffffff;
+  padding: 25px;
+} */

@@ -1,0 +1,32 @@
+.p_text {
+  color: #5a5a5a;
+  font-size: 14px;
+}
+
+.online_training_img {
+  display: block;
+  margin: auto;
+}
+
+.p_icon {
+  font-size: 30px;
+  color: #5a5a5a;
+  margin-right: 3px;
+  margin-bottom: 3px;
+}
+
+.card_header {
+  background: none;
+  border: none;
+  border-radius: 0 !important;
+  border-bottom: 3px solid #e61b2a;
+}
+
+.card {
+  box-shadow: none !important;
+}
+
+.benifits {
+  margin: auto;
+  padding-bottom: 50px;
+}

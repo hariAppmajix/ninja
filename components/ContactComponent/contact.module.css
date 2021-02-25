@@ -1,0 +1,95 @@
+.contact__Container {
+  padding-top: 20vh;
+}
+
+.Contact__Map__Box {
+  display: flex;
+  min-height: auto;
+}
+.Contact__Map__Box2 {
+  display: flex;
+  height: auto;
+  flex-flow: row-reverse;
+  margin-bottom: 50px;
+}
+
+.Contact__Map__Box > div {
+  flex: 1;
+}
+.Contact__Map__Box2 > div {
+  flex: 1;
+  margin-top: 20px;
+}
+.Contact__Map__Box2 > div:first-child {
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+.Contact__Map__Box > div:first-child {
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+}
+
+.Span__title {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  opacity: 0.9;
+  margin-top: -4px;
+  margin-left: 10px;
+}
+
+.Text__desc__Box {
+  display: flex;
+  border-radius: 50px;
+}
+
+.IconStyling {
+  font-size: 20px;
+  color: #e21928;
+}
+
+.Text__desc__Box > div > p:first-child {
+  font-weight: bold;
+}
+
+.Text__desc__Box > div {
+  flex: 1;
+  margin-bottom: 20px;
+}
+
+.Text__Container {
+  width: 90%;
+  margin: auto;
+}
+
+@media (max-width: 800px) {
+  .Contact__Map__Box {
+    flex-direction: column;
+  }
+  .Text__desc__Box {
+    flex-direction: column;
+  }
+  .Contact__Map__Box2 {
+    flex-direction: column;
+    flex-flow: none;
+  }
+
+  .contact__Container {
+    padding-top: 20vh;
+  }
+}
+
+/* .text__box__background{
+
+} */
+
+@media only screen and (device-width: 1024px) {
+  .Contact__Map__Box {
+    display: flex;
+    min-height: 30vh;
+  }
+  .Contact__Map__Box2 {
+    display: flex;
+    height: 60vh;
+  }
+}

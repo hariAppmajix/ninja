@@ -1,0 +1,81 @@
+.card {
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e6e6e6, #ffffff);
+  box-shadow: 20px 20px 60px #d9d9d9, -20px -20px 60px #ffffff !important;
+}
+
+.card:hover {
+  background-image: url("https://cdn.mindmajixtechhub.com/mern/images/blog-bg.svg");
+  background-position: center;
+  background-size: cover;
+  transition: all cubic-bezier(0.4, 0, 0.2, 1) 0.4s;
+}
+
+.card_icon {
+  width: 25px;
+}
+
+.card_body {
+  padding: 30px;
+}
+
+.character {
+  padding: 10px;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  background-image: url(https://cdn.mindmajixtechhub.com/mern/images/blog-icon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.character_name {
+  font-weight: 600;
+}
+
+.date {
+  font-size: 14px;
+  text-align: right;
+  margin: 0px;
+}
+
+.course_star {
+  position: absolute;
+  top: 28px;
+  color: white;
+  font-weight: 400 !important;
+  font-size: 24px;
+}
+
+.star_icon {
+  width: 20px;
+  margin-top: -5px;
+  margin-left: 5px;
+}
+
+.blog_share {
+  text-align: right;
+  border-right: 1px solid grey;
+  padding-right: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+.blog_card_icon {
+  font-size: 28px;
+  padding-left: 5px;
+}
+
+.blog_bookmark {
+  text-align: right;
+  padding-right: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+.card_footer {
+  padding: 15px;
+  text-align: right;
+  font-size: 14px;
+}

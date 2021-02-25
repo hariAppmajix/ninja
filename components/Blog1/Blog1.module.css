@@ -1,0 +1,162 @@
+.blog_page {
+    padding: 120px 0 120px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: 400 !important;
+    text-align: center;
+    font-size: 3rem !important;
+}
+
+.title span {
+    color: #ff1616;
+}
+
+.post_details {
+    margin: 50px 0;
+}
+
+.sidebar {
+    width: 100%;
+    position: relative;
+    padding: 25px;
+    border: 1px solid #eee;
+    background: #fff4f4;
+}
+
+.blog_page ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+.sidebar ul li,
+.toc ul li {
+    position: relative;
+    padding-left: 20px;
+    line-height: 26px;
+}
+
+.sidebar ul li+li,
+.toc ul li+li {
+    margin-top: 5px;
+}
+
+.sidebar ul li::before,
+.toc ul li:before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    background: #000000;
+    border-radius: 50%;
+    left: 0;
+    top: 8px;
+}
+
+.sidebar+.sidebar {
+    margin-top: 30px;
+}
+
+.sidebar h5 {
+    color: #ff1616;
+    font-weight: 400 !important;
+    margin-bottom: 20px;
+}
+
+.content h4 {
+    font-weight: 400 !important;
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.blog_page p {
+    margin: 0 0 30px;
+    line-height: 26px;
+}
+
+.toc {
+    margin-bottom: 30px;
+}
+
+.toc h4 {
+    font-weight: 400 !important;
+    color: #ff1616;
+    margin: 20px 0;
+}
+
+.questions_sec h5 {
+    margin-bottom: 30px;
+}
+
+.questions_sec .question+.question {
+    margin-top: 30px;
+}
+
+.note,
+.progress_sec {
+    background: #fff4f4;
+    padding: 15px;
+    margin: 0 0 30px;
+    text-align: center;
+    border-radius: 4px;
+    border: 1px solid #eee;
+}
+
+.note p {
+    margin: 0;
+}
+
+.note p span {
+    color: #ff1616;
+}
+
+.progress_sec .progress_links {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.progress_sec a {
+    color: #ff1616 !important;
+}
+
+.progress_sec .progress_bar {
+    width: 100%;
+    height: 16px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff1616, #c45900, #8a6b00, #5a6e00, #376930);
+    ;
+    margin: 10px 0;
+}
+
+.progress_sec {
+    text-align: right;
+}
+
+.progress_sec span {
+    color: #ff1616;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .blog_page .title{
+        font-size: 44px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blog_page {
+        padding: 60px 0;
+    }
+
+    .post_details {
+        margin: 25px 0 30px;
+    }
+
+    .blog_page .title{
+        font-size: 32px !important;
+    }
+}
+

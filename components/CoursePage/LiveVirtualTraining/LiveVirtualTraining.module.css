@@ -1,0 +1,139 @@
+.training_row {
+  padding: 30px 10px;
+  -moz-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  margin: 30px 0;
+  /* box-shadow: 3px 2px 5px 0px #808080a6; */
+}
+
+.batches_row {
+  background-image: url(https://cdn.mindmajixtechhub.com/mern/images/preferred.svg);
+  background-size: 100px;
+  background-repeat: no-repeat;
+  background-position: top right;
+  margin-top: 20px;
+  /* background-color: #f8f9fa; */
+  border-radius: 0.25rem;
+  box-shadow: 6px 6px 12px #d9d9d9, -6px -6px 12px #ffffff;
+  padding: 25px 10px 5px 10px;
+}
+
+.read_more {
+  border-bottom: 2px solid #e51b29 !important;
+  border-radius: 0 !important;
+}
+
+.read_more:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.p_text {
+  margin: 10px 0;
+  color: #5a5a5a;
+}
+
+.cp_text {
+  padding: 15px 0;
+}
+
+.batches_inactive {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.25rem;
+  margin: 3px 0;
+  text-align: center;
+}
+
+.price {
+  font-weight: 600 !important;
+  font-size: 32px;
+  color: #e51b29;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.time {
+  font-weight: 600 !important;
+  color: #353535;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.price_strike {
+  text-decoration: line-through;
+  color: #7e7e7e;
+  font-size: 24px;
+  padding-top: 0px;
+  text-align: center;
+  font-weight: 600 !important;
+}
+
+.offer_text {
+  color: #e51b29;
+  font-weight: 600;
+  padding-left: 5px;
+  font-style: italic;
+}
+
+.batch_head {
+  padding: 10px 0;
+}
+
+.batch_sub {
+  padding: 20px;
+  width: 100%;
+}
+
+.batch_sub_img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.batch_icon {
+  margin-right: 5px;
+}
+
+.guarantee_text {
+  margin: 0;
+  padding-top: 5px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.heading {
+  font-weight: 600;
+  text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+  .batches_row {
+    padding: 25px 10px;
+  }
+
+  .batch_sub {
+    margin: auto;
+    margin-top: 20px;
+    padding: 0;
+    padding-top: 20px;
+    width: 100%;
+    border-top: 1px solid #d9d8d8;
+  }
+
+  .price {
+    font-weight: 600 !important;
+    font-size: 40px;
+    color: #e51b29;
+    padding-top: 30px;
+    text-align: center;
+  }
+
+  .batches_row {
+    background-size: 80px;
+  }
+
+  .heading {
+    font-size: 14px;
+  }
+}

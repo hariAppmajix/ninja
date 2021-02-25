@@ -1,0 +1,134 @@
+.bg_bottom {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: #222222;
+  padding: 20px 0;
+}
+
+.contact_input {
+  border: none;
+  border-bottom: 2px solid grey;
+  border-radius: 0;
+  background-color: #ffffff00 !important;
+}
+
+.contact_input:focus {
+  border-bottom: 2px solid #e21927;
+  box-shadow: none !important;
+}
+
+.footer_btn {
+  float: right;
+  color: white !important;
+}
+
+.footer_col_1 {
+  border-right: 1px solid #949393;
+  display: block;
+  margin: auto;
+}
+
+.social_icons {
+  width: 20px;
+  margin: 10px;
+}
+
+.btn_shine {
+  padding: 12px 48px;
+  color: #fff;
+  background: linear-gradient(to right, #4d4d4d 0, #fff 65%, #4d4d4d 20%);
+  background-position: 0;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 3s infinite linear;
+  animation-fill-mode: forwards;
+  -webkit-text-size-adjust: none;
+  text-decoration: none;
+}
+
+.social_icon {
+  margin: 15px;
+  color: white;
+}
+
+.footer_flex {
+  text-align: left;
+}
+
+.address {
+  text-align: left;
+  padding: 0 20px;
+  color: white;
+}
+
+.address_icon {
+  margin: 0 10px;
+  color: white;
+  font-size: 18px;
+}
+
+.li_element {
+  text-align: center;
+  color: #ffffffc4 !important;
+  font-weight: 400;
+}
+
+@-moz-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-webkit-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@-o-keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 180px;
+  }
+  100% {
+    background-position: 180px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .social_flex {
+    display: flex !important;
+  }
+
+  .btn_shine {
+    font-size: 24px;
+  }
+
+  .footer_flex {
+    text-align: center;
+  }
+}

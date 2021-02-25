@@ -1,0 +1,33 @@
+.instructor_banner {
+  background-image: -moz-linear-gradient(
+    bottom,
+    #fff 0,
+    hsla(0, 0%, 45.5%, 0.15) 100%
+  );
+  /* background-image: linear-gradient(0deg, #fff, hsla(0, 0%, 45.5%, 0.15)); */
+}
+
+.character {
+  width: 120px;
+  height: 120px;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  display: block;
+  margin: auto;
+  border: 4px solid #d4d4d4;
+  box-shadow: 7px 7px 14px #d9d9d9, -7px -7px 14px #ffffff !important;
+}
+
+.table_element {
+  padding: 5px;
+}
+
+.instructor_text {
+  background: white;
+  padding: 25px 0;
+  border-radius: 5px;
+}
+
+.training_modes {
+  text-align: center;
+}

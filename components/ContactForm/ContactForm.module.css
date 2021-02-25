@@ -1,0 +1,14 @@
+.contact_input {
+  border: none;
+  border-bottom: 2px solid #bdbdbd;
+  border-radius: 0;
+  background-color: #ffffff00 !important;
+  width: 100%;
+  padding: 0 0.75rem;
+}
+
+.contact_input:focus {
+  outline: none !important;
+  border-bottom: 2px solid #e21927 !important;
+  box-shadow: none !important;
+}

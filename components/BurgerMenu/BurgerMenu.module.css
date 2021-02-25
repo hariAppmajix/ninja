@@ -1,0 +1,92 @@
+.menu {
+  width: 60% !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .menu {
+    width: 90% !important;
+  }
+}
+
+.card {
+  background: none !important;
+  box-shadow: none !important;
+}
+
+.cat_main {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  color: #4b4b4b;
+  cursor: pointer;
+}
+
+.cat_head {
+  font-size: 24px;
+  font-weight: 700 !important;
+}
+
+.p_text {
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.card_header {
+  margin: 0;
+  padding: 10px;
+  border-radius: 5px !important;
+  background: none;
+  box-shadow: none !important;
+  cursor: pointer;
+}
+
+.card_body {
+  padding: 0;
+  padding-left: 30px;
+  line-height: 36px;
+  font-size: 16px;
+}
+
+.sub_menu {
+  color: white !important;
+  font-weight: 400;
+  background: #808080;
+  padding: 10px;
+}
+
+.sub_block {
+  padding: 40px 20px;
+  line-height: 35px;
+  display: none;
+}
+
+.course_block_xs {
+  display: none;
+}
+
+.course_block {
+  display: block;
+}
+
+.bm-menu {
+  background: #ffffff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+@media only screen and (max-width: 768px) {
+  .sub_block {
+    padding: 0px 10px;
+    line-height: 45px;
+    display: block !important;
+  }
+
+  .course_block {
+    display: none;
+  }
+
+  .course_block_xs {
+    display: block;
+  }
+}

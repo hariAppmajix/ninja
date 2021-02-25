@@ -1,0 +1,146 @@
+.blog_landingpage {
+    padding: 120px 0 120px 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-weight: 400 !important;
+    text-align: center;
+    font-size: 3rem !important;
+}
+
+.title span {
+    color: #ff1616;
+}
+
+.progress_bar {
+    margin-top: 60px;
+    padding: 8px 20px;
+    display: flex;
+    font-size: 13px;
+    font-weight: 600;
+    justify-content: space-around;
+    border-radius: 50px;
+    background: linear-gradient(to right, #fac4c8, #fbc9cd, #fbced2, #fcd3d6, #fcd8db, #fcdcde, #fddfe1, #fde3e4, #fee8ea, #feebec, #feeeef, #ffffff);
+}
+
+.cards_sec h3{
+    font-weight: 400 !important;
+    margin-bottom: 25px;
+}
+
+.cards_sec h3 span{
+    color: #ff1616;
+}
+
+.cards_sec p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 40px;
+}
+
+.custom_card {
+    background: #fdf0f1;
+    border: 1px solid #eee !important;
+    margin-bottom: 0 !important;
+    height: calc(100% - 29px);
+    transition: all .2s;
+}
+
+.custom_card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 20%) !important;
+}
+
+.card_icon {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.card_icon img {
+    max-width: 100%;
+}
+
+.custom_card b {
+    color: #000;
+    letter-spacing: 1px;
+    display: block;
+    max-height: 48px;
+    overflow: hidden;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.card_tag {
+    display: flex;
+    margin: 10px 0 0;
+    justify-content: space-between;
+}
+
+.card_tag span {
+    color: #777777;
+    font-size: 13px;
+}
+
+.link:hover {
+    text-decoration: none;
+}
+
+.btn_sec {
+    border-bottom: 2px solid #fac3c7;
+    padding: 30px 0 0;
+    margin: 30px 0 60px;
+    position: relative;
+}
+
+.custom_btn{
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -14%);
+    background: #fdeeef;
+    font-weight: 600;
+    border-radius: 4px;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+}
+
+.custom_btn span{
+    color: #ff1616;
+}
+
+.custom_btn img{
+    display: inline-block;
+    width: 24px;
+}
+
+.custom_btn:hover{
+    text-decoration: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .blog_landingpage .title {
+        font-size: 44px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .blog_landingpage {
+        padding: 60px 0 0;
+    }
+
+    .blog_landingpage .title {
+        font-size: 32px !important;
+    }
+
+    .progress_bar{
+        display: none;
+    }
+
+    .blog_landingpage section{
+        padding: 40px 0;
+    }
+}
+
