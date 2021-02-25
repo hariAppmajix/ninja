@@ -13,16 +13,29 @@ import { NextScript } from "next/document";
 const LayoutFont = ({ children }) => {
   return (
     <div>
-      {/* <Head>
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+      <Head>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
         <link
           rel="preload"
-          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
-          rel="stylesheet"
           as="style"
-          onload="this.onload=null;this.rel='stylesheet'"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
         />
-      </Head> */}
+
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          media="print"
+          onload="this.media='all'"
+        />
+
+        <noscript>
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+          />
+        </noscript>
+      </Head>
       {children}
     </div>
   );
